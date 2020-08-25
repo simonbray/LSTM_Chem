@@ -3,10 +3,10 @@
 	"data_filename": "./datasets/dataset_cleansed.smi",
 	"data_length": 0,
 	"units": 256,
-	"num_epochs": 22,
+	"num_epochs": 1,
 	"optimizer": "adam",
 	"seed": 71,
-	"batch_size": 256,
+	"batch_size": 64,
 	"validation_split": 0.10,
 	"verbose_training": true,
 
@@ -20,7 +20,7 @@
 	"sampling_temp": 0.75,
 	"smiles_max_length": 128,
 
-	"finetune_epochs": 12,
+	"finetune_epochs": 1,
 	"finetune_batch_size": 1,
 	"finetune_data_filename": "./datasets/TRPM8_inhibitors_for_fine-tune.smi"
 }

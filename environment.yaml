@@ -1,0 +1,14 @@
+name: lstm_chem 
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy=1.18.4
+  - tensorflow=2.1.0
+  - tensorflow-estimator==2.1
+  - tqdm=4.43.0
+  - Bunch=1.0.1
+  - matplotlib=3.1.2
+  - RDKit=2019.09.3
+  - scikit-learn=0.22.2.post1
+
