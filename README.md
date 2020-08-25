@@ -10,6 +10,12 @@ This is the implementation of the paper - [Generative Recurrent Networks for De 
 * Changed directory layout
 
 ## Requirements
+To install with conda:
+
+```
+conda env create -f environment.yaml
+```
+
 This model is built using Python 3.7, and utilizes the following packages;
 
 * numpy 1.18.2
